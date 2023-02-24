@@ -1,0 +1,27 @@
+.square {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 5%;
+    background: #f0d9b5;
+    aspect-ratio: 1;
+
+    &.dark {
+        background: #79af82;
+    }
+}
+
+.position {
+    color: white;
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    font-weight: bold;
+    font-size: 10px;
+    user-select: none;
+}
+
+.dragOver {
+    filter: brightness(0.8);
+}
