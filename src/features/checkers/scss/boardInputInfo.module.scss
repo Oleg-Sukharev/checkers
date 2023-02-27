@@ -1,0 +1,32 @@
+.list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+
+.item {
+    padding: 2.5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.value {
+    font-weight: 900;
+    border: 2px solid black;
+    background: white;
+    min-width: 30px;
+    min-height: 30px;
+    margin-right: 5px;
+    border-radius: 50%;
+    border-radius: 50%;
+    line-height: 26px;
+    text-align: center;
+
+    &.black {
+        background: black;
+        color: white;
+    }
+}

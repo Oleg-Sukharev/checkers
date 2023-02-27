@@ -1,4 +1,4 @@
-import React, { memo } from "react";
+import { memo } from "react";
 import { Draggable } from "react-beautiful-dnd";
 import Piece from "./Piece";
 

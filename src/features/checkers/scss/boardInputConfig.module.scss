@@ -1,0 +1,21 @@
+.wrapper {
+    width: 100%;
+}
+
+.input {
+    padding: 15px;
+    text-align: center;
+    background: white;
+    border: 2px solid rgba(0, 0, 0, 0.8);
+    word-break: break-word;
+    width: 100%;
+    margin-top: 10px;
+    font-size: 20px;
+    transition: border 0.3s ease-in-out;
+    border-radius: 4px;
+
+    &:focus,
+    &:focus-visible {
+        border-color: black;
+    }
+}
